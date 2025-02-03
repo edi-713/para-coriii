@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Cori</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #ffecf2;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 3em;
+            text-align: center;
+        }
+        .flowers {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            animation: float 3s infinite alternate ease-in-out;
+        }
+        .flower {
+            width: 100px;
+            height: 100px;
+        }
+        @keyframes float {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>TE QUIERO MUCHO, CORI</h1>
+    <div class="flowers">
+        <img class="flower" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Gerbera_Daisy_Orange.png">
+        <img class="flower" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Gerbera_daisy_pink.jpg">
+        <img class="flower" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Gerbera_Daisy_Orange.png">
+    </div>
+</body>
+</html>
